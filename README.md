@@ -16,4 +16,4 @@
 [задание 3.2 anketa_oper ](https://lizakimmi.github.io/academy.test.github.io/anketa_oper.html "anketa_oper")
 
 
-[задание 4 words ](https://lizakimmi.github.io/academy.test.github.io/words.html/ "words")
+[задание 4 words ](https://lizakimmi.github.io/academy.test.github.io/words.html "words")
