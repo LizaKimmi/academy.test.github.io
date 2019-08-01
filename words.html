@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>задание 4</title>
+</head>
+<body>
+	<script>
+		var text = prompt('Введите текст: ');
+		var word;
+		word=text.split(/\s+/).sort(function(a, b){
+		return b.length - a.length
+		});
+		alert(word[0] + ';' + ' ' + word[1] + ';' + ' ' + word[2]);
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>задание 3.1</title> 
+</head> 
+<body> 
+
+<script> 
+var surname = prompt("Укажите, пожалуйста, вашу фамилию", "Иванов"); 
+var name = prompt("Укажете, пожалуйста, ваше имя", "Иван"); 
+var patronymic = prompt("Укажете, пожалуйста, ваше отчество", "Иванович"); 
+var age = prompt("Укажете, пожалуйста, ваш возраст", " "); 
+var gender = confirm("Вы мужчина?"); 
+var ageDays = age*365; 
+var pension; 
+var genderUser;
+
+genderUser = gender ? "пол: мужской" : "пол: женский";
+
+pension = ( gender && age > 60) ? 'да' : ( ( !gender && age > 55) ? 'да' : 'нет' ); 
+
+alert("ФИО: "+ surname + " " + name + " " + patronymic + '\n\r ' + "возраст, лет: " + age + '\n\r ' + "возраст, дней: "+ageDays + '\n\r ' + genderUser + '\n\r ' + "пенсионный возраст: " + pension); 
+</script> 
+</body> 
+</html>
